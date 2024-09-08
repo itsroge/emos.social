@@ -233,8 +233,7 @@ export default async function IndexPage({
 
       <footer className="container grid gap-2 items-center pb-8">
         <p className="text-sm">
-          Feito por Roge e Wolpes
-          , com muito amor e carinho.
+          Feito por Roge e Wolpes, com muita raiva e ódio (e amor e carinho por vocês emuxos).
         </p>
         <p className="text-xs text-gray-400">
           Este site não utiliza nenhum cookie nem coleta absolutamente nenhum
