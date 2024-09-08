@@ -69,7 +69,7 @@ export default async function IndexPage({
               throw new Error("slur")
             }
 
-            if (domain === "pessoas.dev" && RESERVED.includes(handle)) {
+            if (domain === "emos.social" && RESERVED.includes(handle)) {
               throw new Error("reserved")
             }
 
@@ -198,7 +198,7 @@ export default async function IndexPage({
                         case "slur":
                           return "Usuário inválido, tente novamente"
                         case "reserved":
-                          return "Usuário reservado, tente novamente"
+                          return "Usuário reservado, fale com o administrador"
                         default:
                           return "Ocorreu um erro desconhecido, tente novamente mais tarde"
                       }
@@ -233,8 +233,7 @@ export default async function IndexPage({
 
       <footer className="container grid gap-2 items-center pb-8">
         <p className="text-sm">
-          Feito por Roge e Wolpes
-          , com muito amor e carinho - e ódio pelo computador.
+          Feito por Roge e Wolpes, com amor e carinho - e muito ódio pelo computador.
         </p>
         <p className="text-xs text-gray-400">
           Este site não utiliza nenhum cookie nem coleta absolutamente nenhum
