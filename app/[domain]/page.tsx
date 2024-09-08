@@ -114,9 +114,9 @@ export default async function IndexPage({
             Tenha seu @ personalizado no Bluesky com o{" "}
             <span className="underline underline-offset-8">{domain}</span>
           </h1>
-          {domain == "pessoas.dev" && (
+          {domain == "emos.social" && (
             <h2>
-              Feito por e para pessoas desenvolvedoras. É grátis e sem custo
+              Feito por e para emos. É grátis e sem custo
               nenhum.
             </h2>
           )}
@@ -233,12 +233,12 @@ export default async function IndexPage({
 
       <footer className="container grid gap-2 items-center pb-8">
         <p className="text-sm">
-          Diretamente de Pernambuco por{" "}
+          Feito por {" "}
           <a
             className="underline bold underline-offset-4"
-            href="https://joseli.to"
+            href="https://bsky.app/profile/rogeriov.bsky.social"
           >
-            Joselito
+            Roge
           </a>
           , com muito amor e carinho.
         </p>
@@ -251,6 +251,6 @@ export default async function IndexPage({
   )
 }
 
-const RESERVED = ["joselito"].map((x) => x.toLowerCase())
+const RESERVED = ["joselito", "rogeriov", "2rdsrdr", "lucasfresno"].map((x) => x.toLowerCase())
 
 const BLOCKED = ["bolsonaro", "trump"].map((x) => x.toLowerCase())
