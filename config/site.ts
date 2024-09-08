@@ -12,9 +12,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    home: "https://joseli.to",
-    notx: "https://notx.blue",
-    bluesky: "https://bsky.app/profile/joseli.to",
-    github: "https://github.com/breakzplatform/pessoas.dev",
+    notx: "https://handles.notx.blue",
+    bluesky: "https://bsky.app/profile/rogeriov.bsky.social",
+    github: "https://github.com/itsroge/emos.social",
   },
 }
