@@ -36,7 +36,7 @@ export default async function CommunityPage({ params }: Props) {
     <main className="container grid gap-6 items-center pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-4">
        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
-          A comunidade dos
+          A comunidade dos {" "}
           {domain} <br className="hidden sm:inline" />
           
         </h1>
