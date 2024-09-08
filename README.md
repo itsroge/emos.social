@@ -1,1 +1,1 @@
-# pessoas.dev / ceuazul.online
+# emos.social / handles.notx.blue
