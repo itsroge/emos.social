@@ -240,6 +240,12 @@ export default async function IndexPage({
           >
             Roge
           </a>
+          e  {" "}
+          <a
+            className="underline bold underline-offset-4"
+            href="https://bsky.app/profile/wolpes.bsky.social"
+          >
+            Wolpes
           , com muito amor e carinho.
         </p>
         <p className="text-xs text-gray-400">
