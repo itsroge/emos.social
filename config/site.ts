@@ -4,7 +4,7 @@ export const siteConfig = {
   mainNav: [
     {
       title: "Comunidade",
-      href: "/pessoas",
+      href: "/comunidade",
     },
 
   ],
