@@ -233,19 +233,7 @@ export default async function IndexPage({
 
       <footer className="container grid gap-2 items-center pb-8">
         <p className="text-sm">
-          Feito por {" "}
-          <a
-            className="underline bold underline-offset-4"
-            href="https://bsky.app/profile/rogeriov.bsky.social"
-          >
-            Roge
-          </a>
-          e  {" "}
-          <a
-            className="underline bold underline-offset-4"
-            href="https://bsky.app/profile/wolpes.bsky.social"
-          >
-            Wolpes
+          Feito por Roge e Wolpes
           , com muito amor e carinho.
         </p>
         <p className="text-xs text-gray-400">
