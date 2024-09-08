@@ -21,18 +21,7 @@ export function SiteHeader({ children }: Props) {
 
   const links = (
     <nav className="flex gap-4 items-center md:gap-1">
-      <Link href={siteConfig.links.bluesky} target="_blank" rel="noreferrer">
-        <div
-          className={buttonVariants({
-            size: "sm",
-            variant: "ghost",
-          })}
-        >
-          <Icons.bluesky className="size-5" />
-          <span className="sr-only">Bluesky</span>
-        </div>
-      </Link>
-      <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
+          <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
         <div
           className={buttonVariants({
             size: "sm",
@@ -43,18 +32,7 @@ export function SiteHeader({ children }: Props) {
           <span className="sr-only">GitHub</span>
         </div>
       </Link>
-      <Link href="https://joseli.to" target="_blank" rel="noreferrer">
-        <div
-          className={buttonVariants({
-            size: "sm",
-            variant: "ghost",
-          })}
-        >
-          <Icons.user className="size-5" />
-          <span className="sr-only">joselit.to</span>
-        </div>
-      </Link>
-      <Link href="https://notx.blue" target="_blank" rel="noreferrer">
+          <Link href="https://handles.notx.blue" target="_blank" rel="noreferrer">
         <div
           className={buttonVariants({
             size: "sm",
@@ -62,7 +40,7 @@ export function SiteHeader({ children }: Props) {
           })}
         >
           <Icons.globe className="size-5" />
-          <span className="sr-only">notx.blue</span>
+          <span className="sr-only">handles.notx.blue</span>
         </div>
       </Link>
       <ThemeToggle />
