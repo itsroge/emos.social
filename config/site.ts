@@ -10,6 +10,10 @@ export const siteConfig = {
       title: "Comunidade",
       href: "/comunidade",
     },
+    {
+      title: "Dúvidas",
+      href: "/perguntas",
+    },
   ],
   links: {
     notx: "https://handles.notx.blue",
