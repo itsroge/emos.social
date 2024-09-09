@@ -16,6 +16,7 @@ export const siteConfig = {
     },
   ],
   links: {
+    bluesky: "https://bsky.app/profile/roge.emos.social",
     notx: "https://handles.notx.blue",
     github: "https://github.com/itsroge/emos.social",
   },
