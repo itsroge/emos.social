@@ -70,15 +70,15 @@ export default function CommunityPage({ params }: Props) {
         </Stage>
         <Stage title="Não sou programador, mas tenho uma comunidade e quero um site assim. Me ajuda?" number={"7"} last>
           <p className="mb-4 max-w-lg">
-            Olha, como dizer isso? Eu também não sou, estamos juntos no mesmo barco. Se são dúvidas simples, posso tentar resolvê-las via <strong><a href="https://bsky.app/profile/roge.emos.social">Chat no Bluesky</a></strong>, sem compromisso.
+            Como dizer isso? Eu também não sou, estamos juntos no mesmo barco. Se são dúvidas simples, posso tentar resolvê-las via <strong><a href="https://bsky.app/profile/roge.emos.social">Chat no Bluesky</a></strong>, sem compromisso.
           </p>
           <p className="max-w-lg">
-            Caso tenha interesse em fazer algo profissional, com direcionamento e suporte, posso indicar gente qualificada. Tem vários entre os emos!
+            Caso tenha interesse em fazer algo profissional, com direcionamento e suporte, posso indicar gente qualificada. Temos uma imensidão de programadores entre os emos!
           </p>
         </Stage>
         <Stage title="E se eu quiser usar o meu domínio individualmente? Isso é possível?" number={"8"} last>
           <p className="mb-4 max-w-lg">
-            É sim, talvez necessite de algum conhecimento em programação, mas com um pouco de paciência você consegue sozinho. É só seguir <strong><a href="https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial">esse tutorial</a></strong>.
+            Talvez necessite de algum conhecimento em programação, mas com <strong><a href="https://i.giphy.com/VS95jHa4UCOe4.webp">um pouco de paciência</a></strong> você consegue sozinho. É só seguir <strong><a href="https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial">esse tutorial</a></strong>.
           </p>
         </Stage>
       </div>

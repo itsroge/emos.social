@@ -233,7 +233,10 @@ export default async function IndexPage({
 
       <footer className="container grid gap-2 items-center pb-8">
         <p className="text-sm">
-          Feito por Roge e Wolpes, com amor e carinho - e muito ódio pelo computador.
+          Feito por Roge e Wolpes, com amor e carinho - <a href="https://i.giphy.com/VS95jHa4UCOe4.webp">e muito ódio pelo computador</a>.
+        </p>
+        <p className="text-xs text-gray-400">
+          Ajude esse projeto a se manter vivo fazendo <strong><a href="https://nubank.com.br/cobrar/4ok31/66de6ac2-5c90-4a53-b9e5-19a1ce571470">uma contribuição!</a></strong>.
         </p>
         <p className="text-xs text-gray-400">
           Este site não utiliza nenhum cookie nem coleta absolutamente nenhum
