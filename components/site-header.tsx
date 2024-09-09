@@ -20,7 +20,18 @@ export function SiteHeader({ children }: Props) {
   const [showMenu, setShowMenu] = useState(false)
 
   const links = (
-    <nav className="flex gap-4 items-center md:gap-1">
+   <nav className="flex gap-4 items-center md:gap-1">
+           <Link href={siteConfig.links.bluesky} target="_blank" rel="noreferrer">
+        <div
+          className={buttonVariants({
+            size: "sm",
+            variant: "ghost",
+          })}
+        >
+          <Icons.bluesky className="size-5" />
+          <span className="sr-only">Bluesky</span>
+        </div>
+      </Link>
           <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
         <div
           className={buttonVariants({
